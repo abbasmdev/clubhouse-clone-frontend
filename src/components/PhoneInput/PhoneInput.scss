@@ -1,0 +1,15 @@
+.phoneInput {
+  display: flex;
+  border: 1px solid rgb(126, 125, 125);
+  padding: 10px;
+  border-radius: 20px;
+}
+.phoneInput__phone {
+  outline: none;
+  border: none;
+}
+.phoneInput__ccode {
+  outline: none;
+  border: none;
+  border-right: 2px solid gray;
+}

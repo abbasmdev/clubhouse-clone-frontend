@@ -1,0 +1,39 @@
+.profilePage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.profilePage__navbar {
+  margin-top: 10px;
+}
+.profilePage__navbar__left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.profilePage__myoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.profilePage__Modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border: 1px solid #ccc;
+  background: #fff;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  width: 100%;
+  max-width: 320px;
+}

@@ -1,0 +1,30 @@
+.roomsPage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.roomsPage__navbar {
+  margin-top: 10px;
+}
+
+.roomsPage__navbar__left {
+  align-items: center;
+
+  @media screen and (min-width: 576px) {
+    display: flex;
+    gap: 10px;
+  }
+}
+.roomsPage__navbar__left > h3 {
+  margin-bottom: 5px;
+}
+.roomsPage__RoomsList {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.roomsPage__roomsListContainer__title {
+  color: rgb(77, 76, 76);
+}

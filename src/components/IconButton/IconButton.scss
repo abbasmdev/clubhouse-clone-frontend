@@ -1,0 +1,19 @@
+.iconButton {
+  display: flex;
+  outline: none;
+  background-color: rgb(40, 76, 236);
+  color: white;
+  align-items: center;
+  border-radius: 20px;
+  padding: 5px 20px;
+  border: none;
+}
+
+.iconButton:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.iconButton:disabled {
+  background-color: gray;
+}
